@@ -1,0 +1,16 @@
+/* SlickNav minimal stylesheet — included for asset completeness.
+   Not wired to any menu in this build; mobile navigation uses Bootstrap's
+   navbar-toggler/collapse instead (see header markup + bootstrap.js). */
+.slicknav_menu{display:none;box-sizing:border-box;padding:5px;background:#15332B;}
+.slicknav_menu *{box-sizing:border-box;}
+.slicknav_btn{position:relative;display:block;vertical-align:middle;float:right;padding:8px 10px;line-height:1.125em;cursor:pointer;}
+.slicknav_menutxt{display:block;line-height:1.125em;float:left;color:#fff;font-weight:bold;font-family:sans-serif;}
+.slicknav_icon{float:left;margin:0 0 0 8px;}
+.slicknav_icon-bar{display:block;width:18px;height:2px;background:#fff;margin:3px 0;}
+.slicknav_nav{clear:both;}
+.slicknav_nav ul{display:block;margin:0;padding:0;list-style:none;}
+.slicknav_nav li{width:100%;}
+.slicknav_nav a{display:block;padding:8px 12px;margin:2px 5px;text-decoration:none;color:#fff;}
+.slicknav_nav a:hover{background:rgba(255,255,255,0.08);}
+.slicknav_hidden{display:none;}
+@media screen and (max-width:768px){.slicknav_menu{display:none;}}
